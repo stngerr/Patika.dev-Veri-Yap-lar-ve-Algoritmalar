@@ -1,4 +1,4 @@
-# Patika.dev-Veri-Yap-lar-ve-Algoritmalar
+# Patika.dev/Veri-Yapıları-ve-Algoritmalar
 Insertion Sort Proje
 
 [22,27,16,2,18,6] -> Insertion Sort
