@@ -1,0 +1,24 @@
+[7, 5, 1, 8, 3, 6, 0, 9, 4, 2] dizisinin Binary-Search-Tree aşamalarını yazınız.
+
+
+7 ilk değer olduğundan kök değer olur.
+5 değeri 7'den küçük olduğu için rootun solunda yer alır.
+1 değeri 7'den küçük olduğu için rootun soluna gider ama orada 5 değerli node ile kıyaslanınca onun soluna gider.
+8 değeri rootun değerinden büyük olduğundan sağına gider.
+3 değeri rootun soluna gider ve 1 değerli nodeden büyük olduğundan sağına gider.
+6 değeri rootun soluna gider ve 5 değerli nodeden büyük olduğundan sağına gider.
+0 değeri rootun soluna gider ve 1 değerli nodeden küçük olduğundan soluna gider.
+9 değeri rootun sağına gider ve 8 değerli nodeden büyük olduğundan sağına gider.
+4 değeri rootun soluna gider kıyal
+2
+
+
+                        7
+                       / \
+                      5   8 
+                    /   \   \ 
+                   1     6   9 
+                  /  \ 
+                 0    3        
+                    /  \
+                   2     4
